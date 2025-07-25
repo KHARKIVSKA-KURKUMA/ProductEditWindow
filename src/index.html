@@ -8,17 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Teko:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -48,8 +40,60 @@
   </head>
   <body data-no-scroll>
     <!-- ------------------------------- HEADER -------------------------------- -->
-    <header id="1" class="header">
-      <h1>Hi</h1>
+    <header id="header" class="header">
+      <div class="header__container container">
+        <h1 class="header__title visually-hidden">Картка продукту</h1>
+
+        <p class="header__productId">G112082</p>
+        <div class="header__wrap">
+          <button class="header__editButton button">
+            <img
+              src="./img/edit__icon.png"
+              alt="Edit Product"
+              class="header__editButton__icon"
+            />
+            <span class="header__editButton__text">Edit</span>
+          </button>
+          <ul class="header__list">
+            <li class="header__list__item">
+              <button class="header__list__item__button button">
+                <img
+                  src="./img/arrow-prev__icon.png"
+                  alt="Previous product"
+                  class="header__list__item__button__icon"
+                />
+              </button>
+            </li>
+            <li class="header__list__item">
+              <button class="header__list__item__button button">
+                <img
+                  src="./img/arrow-next__icon.png"
+                  alt="Forward product"
+                  class="header__list__item__button__icon"
+                />
+              </button>
+            </li>
+            <li class="header__list__item">
+              <button class="header__list__item__button button">
+                <img
+                  src="./img/max__icon.png"
+                  alt="Maximize product"
+                  class="header__list__item__button__icon"
+                />
+              </button>
+            </li>
+            <li class="header__list__item">
+              <button class="header__list__item__button button">
+                <img
+                  src="./img/close__icon.png"
+                  alt="Close window"
+                  class="header__list__item__button__icon"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <!-- ----------------------------------------------------------------------- -->
     <main>
@@ -69,11 +113,7 @@
       <!-- ----------------------------------------------------------------------- -->
     </main>
     <!-- ------------------------------- FOOTER -------------------------------- -->
-    <footer class="footer">
-      <a class="up is-hidden" id="up" href="index.html#home">⇪</a>
-    </footer>
+    <footer class="footer"></footer>
     <!-- ----------------------------------------------------------------------- -->
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/up-btn.js"></script>
   </body>
 </html>

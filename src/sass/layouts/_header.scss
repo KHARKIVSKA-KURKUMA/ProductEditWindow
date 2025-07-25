@@ -1,0 +1,59 @@
+.header {
+  border-bottom: 1px solid $borderColor;
+  &__container {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__productId {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  &__wrap {
+    display: flex;
+  }
+  &__editButton {
+    background-color: $accentColor;
+    border-radius: 10px;
+    display: flex;
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 8px;
+    margin-right: 40px;
+    &__icon {
+      width: 18px;
+      height: 18px;
+    }
+    &__text {
+      color: $whiteColor;
+      font-weight: 600;
+      font-size: 21px;
+    }
+  }
+  &__list {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &::before {
+      content: '';
+      width: 1px;
+      height: 40px;
+      position: absolute;
+      background-color: $borderColor;
+      left: -20px;
+    }
+    &__item {
+      &__button {
+        &__icon {
+          width: 30px;
+        }
+      }
+    }
+  }
+}

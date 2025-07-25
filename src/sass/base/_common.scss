@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: $titleColor;
-
+  font-family: 'Raleway', sans-serif;
+  color: $mainColor;
+  margin: 0;
 }
 
 .link {
@@ -12,11 +12,18 @@ body {
   list-style-type: none;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
 .no-scroll {
   overflow: hidden;
+}
+
+button {
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+.button {
+  border: none;
+  background-color: transparent;
 }
