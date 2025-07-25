@@ -43,7 +43,6 @@
     <header id="header" class="header">
       <div class="header__container container">
         <h1 class="header__title visually-hidden">Картка продукту</h1>
-
         <p class="header__productId">G112082</p>
         <div class="header__wrap">
           <button class="header__editButton button">
@@ -95,12 +94,17 @@
         </div>
       </div>
     </header>
-    <!-- ----------------------------------------------------------------------- -->
     <main>
-      <!-- -------------------------------- HERO --------------------------------- -->
-      <section class="hero"></section>
+      <section class="summary">
+        <div class="summary__container container">
+          <div class="summary__wrap">
+            <ul class="summary__list list" id="summary-feature-list" />
+          </div>
+          <ul id="photo-gallery" class="summary__productList"></ul>
+        </div>
+      </section>
       <!-- -------------------------------- ABOUT -------------------------------- -->
-      <section id="2" class="about"></section>
+      <section class="about"></section>
       <!-- ----------------------------------------------------------------------- -->
       <!-- ------------------------------- NOVELTY ------------------------------- -->
       <section class="novelty"></section>
@@ -116,4 +120,5 @@
     <footer class="footer"></footer>
     <!-- ----------------------------------------------------------------------- -->
   </body>
+  <script type="module" src="./ts/main.ts"></script>
 </html>

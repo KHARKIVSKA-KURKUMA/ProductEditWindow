@@ -17,11 +17,12 @@
   "green_id": "Y",
   "edit_at": "2024-08-30T12:32:00",
   "create_at": "2024-08-30T12:32:00",
-  "amazon_listing_src": "https://www.amazon.com",
+  "amazon_listing_src": "https://www.amazon.com.en",
   "elccq": 0,
   "amazq": 9,
-  "photo_device": "https://drive.google.com/",
-  "notes": " ",
+  "photo_device": "https://i.ibb.co/JFcfVF4x/photo-device.png",
+  "photo_data_plate": "https://i.ibb.co/W4yWFJcd/photo-data-plate.png",
+  "notes": "",
   "locations": [
     {
       "id": "G112082",
