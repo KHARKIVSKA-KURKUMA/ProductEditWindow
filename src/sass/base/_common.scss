@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $titleColor;
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
