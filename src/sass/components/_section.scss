@@ -1,0 +1,40 @@
+.title {
+  font-weight: 600;
+  font-size: 25px;
+}
+.counter {
+  font-weight: 600;
+  font-size: 15px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  color: rgba(82, 83, 105, 0.5);
+  background-color: rgba(129, 132, 175, 0.2);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+  border-top: 1px solid $borderColor;
+  margin: 0 10px;
+  &__row {
+    border-bottom: 1px solid $borderColor;
+    &:first-child td {
+      font-weight: 600;
+      font-size: 22px;
+      text-align: left;
+      border-bottom: 1px solid $borderColor;
+      border-right: 1px solid $borderColor;
+      &:nth-last-child(-n + 2) {
+        border-right: none;
+      }
+    }
+  }
+  &__cell {
+    padding: 10px 0px 10px 20px;
+  }
+}

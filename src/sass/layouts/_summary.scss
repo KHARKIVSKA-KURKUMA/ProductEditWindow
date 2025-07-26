@@ -1,10 +1,10 @@
 .summary {
+  border-bottom: 1px solid $borderColor;
   &__container {
-    border-bottom: 1px solid $borderColor;
     display: flex;
     padding: 0px;
+    padding-bottom: 10px;
   }
-
   &__list {
     display: flex;
     flex-direction: column;

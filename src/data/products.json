@@ -25,9 +25,41 @@
   "notes": "",
   "locations": [
     {
-      "id": "G112082",
-      "brand": "NEC",
-      "category": "Projectors",
+      "device_pn": "CP34B",
+      "quantity": 52,
+      "condition": "U/Ref",
+      "edit_user": "Script",
+      "notes": "No Lamp"
+    },
+    {
+      "device_pn": "CP34B",
+      "quantity": 52,
+      "condition": "U/Ref",
+      "edit_user": "Script",
+      "notes": "No Lamp"
+    },
+    {
+      "device_pn": "CP34B",
+      "quantity": 52,
+      "condition": "U/Ref",
+      "edit_user": "Script",
+      "notes": "No Lamp"
+    },
+    {
+      "device_pn": "CP34B",
+      "quantity": 52,
+      "condition": "U/Ref",
+      "edit_user": "Script",
+      "notes": "No Lamp"
+    },
+    {
+      "device_pn": "CP34B",
+      "quantity": 52,
+      "condition": "U/Ref",
+      "edit_user": "Script",
+      "notes": "No Lamp"
+    },
+    {
       "device_pn": "CP34B",
       "quantity": 52,
       "condition": "U/Ref",

@@ -2,9 +2,9 @@
   border-bottom: 1px solid $borderColor;
   &__container {
     display: flex;
-    padding-bottom: 15px;
     align-items: center;
     justify-content: space-between;
+    padding: 14px 0px 20px;
   }
   &__productId {
     font-weight: 600;
@@ -41,7 +41,7 @@
     align-items: center;
     position: relative;
     &::before {
-      content: '';
+      content: "";
       width: 1px;
       height: 40px;
       position: absolute;

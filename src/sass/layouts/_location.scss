@@ -1,0 +1,19 @@
+.location {
+  border-bottom: 1px solid $borderColor;
+  &__container {
+    padding: 15px 0px 30px;
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  &__table__cell__link {
+    &__icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
