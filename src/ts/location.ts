@@ -23,7 +23,6 @@ export function renderLocationTable(data: ProductData): void {
     counterEl.textContent = String(data.locations.length);
     counterEl.classList.add("counter");
   }
-
   if (table) {
     const limitedLocations = data.locations.slice(0, 4);
 

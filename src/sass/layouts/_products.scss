@@ -1,16 +1,50 @@
 .products {
   &__container {
+    padding: 15px 0px 30px;
   }
   &__wrap {
-  }
-  &__title {
-  }
-  &__counter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
   }
   &__table {
     &__row {
+      &:first-child td {
+        &:last-child {
+          border-right: none;
+        }
+      }
     }
-    &__cell {
+    &__cell__link {
+      display: block;
+      margin-right: 30px;
+      &__icon {
+        width: 25px;
+        height: 25px;
+        margin-left: auto;
+      }
     }
+  }
+  &__list {
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-right: 20px;
+    &__button {
+      padding: 8px 15px;
+      border: 1px solid $accentColor;
+      border-radius: 10px;
+      font-size: 20px;
+      color: $mainColor;
+      background-color: transparent;
+    }
+  }
+  .addBtn {
+    background-color: $accentColor;
+    color: $whiteColor;
+    font-weight: 700;
   }
 }
