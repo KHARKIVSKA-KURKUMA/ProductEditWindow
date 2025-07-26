@@ -1,5 +1,5 @@
 .title {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 25px;
 }
 .counter {
@@ -21,10 +21,11 @@
   font-size: 20px;
   border-top: 1px solid $borderColor;
   margin: 0 10px;
+  border-bottom: 1px solid $borderColor;
   &__row {
     border-bottom: 1px solid $borderColor;
     &:first-child td {
-      font-weight: 600;
+      font-weight: bold;
       font-size: 22px;
       text-align: left;
       border-bottom: 1px solid $borderColor;

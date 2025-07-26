@@ -95,6 +95,7 @@
       </div>
     </header>
     <main>
+      <!-- ------------------------------- SUMMARY ------------------------------- -->
       <section class="summary">
         <div class="summary__container container">
           <h2 class="summary__title visually-hidden">Про продукт</h2>
@@ -104,11 +105,12 @@
           <ul id="photo-gallery" class="summary__productList"></ul>
         </div>
       </section>
+      <!-- ------------------------------ LOCATION ------------------------------- -->
       <section class="location">
         <div class="location__container container">
           <div class="location__wrap">
-            <h2 class="location__title">List location</h2>
-            <p class="location__counter">6</p>
+            <h2 class="location__title title">List location</h2>
+            <p class="location__counter counter">0</p>
           </div>
           <table class="location__table table">
             <tr class="location__table__row table__row">
@@ -125,8 +127,44 @@
           </table>
         </div>
       </section>
+      <!-- ------------------------------- LISTING ------------------------------- -->
       <section class="listing">
-        <h2 class="listing__title title">List Ebay Vision Listings</h2>
+        <div class="listing__container container">
+          <div class="listing__wrap">
+            <h2 class="listing__title title">List Ebay Vision Listings</h2>
+            <p class="listing__counter counter">0</p>
+          </div>
+          <table class="listing__table table">
+            <tr class="listing__table__row table__row">
+              <td class="listing__table__cell table__cell">Listing_id</td>
+              <td class="listing__table__cell table__cell">SKU</td>
+              <td class="listing__table__cell table__cell">Condition_id</td>
+              <td class="listing__table__cell table__cell">Product_id</td>
+              <td class="listing__table__cell table__cell">Title</td>
+              <td class="listing__table__cell table__cell">Price</td>
+              <td class="listing__table__cell table__cell">Listing_qty</td>
+              <td class="listing__table__cell table__cell">Inventory_q</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <!-- ------------------------------ PRODUCTS ------------------------------- -->
+      <section class="products">
+        <div class="products__container container">
+          <div class="products__wrap">
+            <h2 class="products__title title">Same products</h2>
+            <p class="products__counter counter">0</p>
+          </div>
+          <table class="products__table table">
+            <tr class="products__table__row table__row">
+              <td class="products__table__cell table__cell">Original_id</td>
+              <td class="products__table__cell table__cell">Same_id</td>
+              <td class="products__table__cell table__cell">
+                Fk_edit_employee
+              </td>
+            </tr>
+          </table>
+        </div>
       </section>
     </main>
     <!-- ------------------------------- FOOTER -------------------------------- -->

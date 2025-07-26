@@ -49,8 +49,6 @@ export function renderSummary(data: ProductData): void {
     const strValue = String(value);
     const shortText =
       strValue.length > 24 ? strValue.slice(0, 23) + "…" : strValue;
-
-    // Додаємо текст і, якщо потрібно, посилання
     if (
       (key === "photo_device" || key === "amazon_listing_src") &&
       value !== "----------"

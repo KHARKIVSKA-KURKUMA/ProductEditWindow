@@ -67,13 +67,63 @@
       "notes": "No Lamp"
     }
   ],
-  "ebay_vision_listings": [
+  "listings": [
     {
       "listing_id": "325064386872",
-      "sku": "SRQ/P,Ne_ME31X...",
+      "sku": "SRQ/P,Ne_ME31X add text",
       "condition_id": "UEG122535",
       "product_id": "G122535",
-      "title": "3300 ANSI 3LCD Projector 1080p...",
+      "title": "3300 ANSI 3LCD Projector 1080p ds",
+      "price": 114.27,
+      "listing_qty": 274,
+      "inventory_qty": 3376
+    },
+    {
+      "listing_id": "325064386872",
+      "sku": "SRQ/P,Ne_ME31X add text",
+      "condition_id": "UEG122535",
+      "product_id": "G122535",
+      "title": "3300 ANSI 3LCD Projector 1080p ds",
+      "price": 114.27,
+      "listing_qty": 274,
+      "inventory_qty": 3376
+    },
+    {
+      "listing_id": "325064386872",
+      "sku": "SRQ/P,Ne_ME31X add text",
+      "condition_id": "UEG122535",
+      "product_id": "G122535",
+      "title": "3300 ANSI 3LCD Projector 1080p add text",
+      "price": 114.27,
+      "listing_qty": 274,
+      "inventory_qty": 3376
+    },
+    {
+      "listing_id": "325064386872",
+      "sku": "SRQ/P,Ne_ME31X add text",
+      "condition_id": "UEG122535",
+      "product_id": "G122535",
+      "title": "3300 ANSI 3LCD Projector 1080p add text",
+      "price": 114.27,
+      "listing_qty": 274,
+      "inventory_qty": 3376
+    },
+    {
+      "listing_id": "325064386872",
+      "sku": "SRQ/P,Ne_ME31X add text",
+      "condition_id": "UEG122535",
+      "product_id": "G122535",
+      "title": "3300 ANSI 3LCD Projector 1080p add text",
+      "price": 114.27,
+      "listing_qty": 274,
+      "inventory_qty": 3376
+    },
+    {
+      "listing_id": "325064386872",
+      "sku": "SRQ/P,Ne_ME31X add text",
+      "condition_id": "UEG122535",
+      "product_id": "G122535",
+      "title": "3300 ANSI 3LCD Projector 1080p add text",
       "price": 114.27,
       "listing_qty": 274,
       "inventory_qty": 3376
